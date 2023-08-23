@@ -1,6 +1,6 @@
 ## Description
 
-Desafio Nest.js para a Imersão 14 Full Stack && Full Cycle
+Desafio Nest.js para a Imersão 14 Full Stack && Full Cycle, using Nest.js, MongoDB and Docker to create a REST API.
 
 ## Installation
 
