@@ -1,0 +1,18 @@
+### Listar rotas
+GET http://localhost:3000/routes
+
+### Criar rota
+POST http://localhost:3000/routes
+Content-Type: application/json
+
+{
+    "name": "Rota teste 1",
+    "source": {
+        "lat": -23.5489,
+        "lng": -46.6388
+    },
+    "destination": {
+        "lat": -19.912998,
+        "lng": -43.940933
+    }
+}
