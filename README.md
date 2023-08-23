@@ -8,7 +8,7 @@ Desafio Nest.js para a Imersão 14 Full Stack && Full Cycle
 $ pnpm install
 ```
 
-## Running the app
+## Running the app locally (without DB)
 
 ```bash
 # development
@@ -19,6 +19,12 @@ $ pnpm run start:dev
 
 # production mode
 $ pnpm run start:prod
+```
+
+## Running the app with Docker and DB
+
+```bash
+$ docker compose up
 ```
 
 ## Test
