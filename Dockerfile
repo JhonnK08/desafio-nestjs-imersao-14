@@ -1,15 +1,9 @@
-FROM node:20-slim
-
-RUN npm i -g pnpm
-
-USER node
+FROM node:20-slim AS base
 
 WORKDIR /home/node/app
 
-COPY package.json pnpm-lock.yaml ./
-
-RUN pnpm install
-
 COPY . .
 
-CMD [ "pnpm", "start:dev" ]
+RUN npm install
+EXPOSE 3000
+CMD [ "npm", "run", "start:dev" ]
